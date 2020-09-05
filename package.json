@@ -1,0 +1,30 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn ts-node src/index.ts",
+    "test": "jest"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "boilerplate",
+    "project"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.6.4",
+    "tslint": "^6.1.3",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "ts-node": "^9.0.0"
+  }
+}
